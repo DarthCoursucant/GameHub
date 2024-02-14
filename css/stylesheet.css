@@ -171,6 +171,7 @@ html, body {
 
   /* END SEARCH BAR CODE*/
 
+  /* FOOTER CODE*/
   .page-footer {
     display: flex;
   }
@@ -179,9 +180,37 @@ html, body {
     text-decoration: none;
     color: #ed0404
   }
+
+  .flex-footer-left-left {
+    padding-left: 20px;
+    padding-right: 180px;
+  }
+
+  .flex-footer-left {
+    padding-right: 180px;
+  }
+
+  .flex-footer-middle {
+    padding-right: 180px;
+  }
+
+  .flex-footer-right {
+    padding-right: 180px;
+  }
+
+  .flex-footer-right-right img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .flex-footer-left-left, .flex-footer-left, .flex-footer-middle, .flex-footer-right {
+    width: 150px;
+  }
+
+  /* END FOITER CODE*/
   
   
-  /*All The Flex Properties */
+  /* ALL FLEX PROPERTIES */
   .around { 
       justify-content: space-around; 
   }
@@ -201,3 +230,5 @@ html, body {
   .reverse { 
       flex-wrap: wrap-reverse; 
   }
+
+  /* END ALL FLEX PROPERTIES */
