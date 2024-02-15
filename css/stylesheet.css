@@ -247,7 +247,7 @@ html, body {
     text-align: center;
   }
 
-  #funko-thumb-image img {
+  #flex-container-funko-products img {
     width: 200px;
     height: 140px;
   }
@@ -255,4 +255,9 @@ html, body {
   #funko-thumb-image {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  /* HERO IMAGES */
+  #hero-addams-funko-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.looper.com/img/gallery/the-untold-truth-of-the-addams-family/intro.jpg')
   }
