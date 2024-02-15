@@ -236,4 +236,23 @@ html, body {
 
   .page-color-funko {
     background-color: #C0A9BD;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+  }
+
+  .flex-container-funko-products {
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #funko-thumb-image img {
+    width: 200px;
+    height: 140px;
+  }
+
+  #funko-thumb-image {
+    padding-left: 20px;
+    padding-right: 20px;
   }
